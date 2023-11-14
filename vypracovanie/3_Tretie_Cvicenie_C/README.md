@@ -46,7 +46,7 @@ korene_r = roots(r);
 ![App Screenshot](https://lh3.google.com/u/1/d/15Xb5ZHiMFSBbNFAvtlJY_Kd1pE_v2DS7=w1040-h931-iv1](https://github.com/Gymoblig/Matlab/blob/main/img/1.png)
 #### Stručný postup:
 1. Pridáme si z **Library Browser**u **Signal Editor**, následne dvojtým kliknutím otvoríme menu *Buildera* a vytvoríme mu tzv. **Scenario**
-![App Screenshot](https://lh3.google.com/u/1/d/1tTRB2DwT5jtJiDF8NCGhvodHqwRIXy4X=w1040-h931-iv1)
+![App Screenshot](https://github.com/Gymoblig/Matlab/blob/main/img/1.png)
 
 2. V **Signal Editor**e máme menu s ktorým ideme pracovať... Pridáme si **signal**
 ![App Screenshot](https://lh3.google.com/u/1/d/1Omd9-j89qOCxNQj2JQjrDOA3pXDBhLJo=w1040-h931-iv1)
