@@ -1,11 +1,11 @@
 
 # **Polynómy a Simulink**
 Toto by malo jednoducho vysvetliť ako som sa dopracoval k výsledku, aký mám :)
-- [## ZADANIE 1 - Polynómy](#zadanie-1---polynomy)
-- [## ZADANIE 2 - Simulink](#zadanie-2---simulink)
-    - [### A) Vytvorte periodický signál v prostredí SIMULINK podľa nasledujúceho obrázku](#a-vytvorte-periodicky-signal-v-prostredi-simulink-podla-nasledujuceho-obrazku)
-    - [### B) Vytvorte periodický signál, ktorý vznikne sčítaním prvých 5-tich zložiek Fourierovho radu reprezentujúceho referenčný signál v prvej časti zadania](#b-vytvorte-periodicky-signal-ktory-vznikne-scitanim-prvych-5-tich-zloziek-fourierovho-radu-reprezentujuceho-referencny-signal-v-prvej-casti-zadania)
-    - [### C) Zobrazte vytvorené signály z A) a B) v jednom grafickom okne pomocou bloku Scope](#c-zobrazte-vytvorene-signaly-z-a-a-b-v-jednom-grafickom-okne-pomocou-bloku-scope)
+- [ZADANIE 1 - Polynómy](#zadanie-1---polynomy)
+- [ZADANIE 2 - Simulink](#zadanie-2---simulink)
+    - [A) Vytvorte periodický signál v prostredí SIMULINK podľa nasledujúceho obrázku](#a-vytvorte-periodicky-signal-v-prostredi-simulink-podla-nasledujuceho-obrazku)
+    - [B) Vytvorte periodický signál, ktorý vznikne sčítaním prvých 5-tich zložiek Fourierovho radu reprezentujúceho referenčný signál v prvej časti zadania](#b-vytvorte-periodicky-signal-ktory-vznikne-scitanim-prvych-5-tich-zloziek-fourierovho-radu-reprezentujuceho-referencny-signal-v-prvej-casti-zadania)
+    - [C) Zobrazte vytvorené signály z A) a B) v jednom grafickom okne pomocou bloku Scope](#c-zobrazte-vytvorene-signaly-z-a-a-b-v-jednom-grafickom-okne-pomocou-bloku-scope)
 ## ZADANIE 1 - Polynómy
 Vytvorte polynóm 
 - p: 4x3- 19x2 + 120
