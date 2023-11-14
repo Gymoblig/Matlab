@@ -43,12 +43,15 @@ korene_r = roots(r);
 
 ## ZADANIE 2 - Simulink
 ### A) Vytvorte periodický signál v prostredí SIMULINK podľa nasledujúceho obrázku:
+
 ![App Screenshot](https://github.com/Gymoblig/Matlab/blob/main/img/1.png)
 #### Stručný postup:
 1. Pridáme si z **Library Browser**u **Signal Editor**, následne dvojtým kliknutím otvoríme menu *Buildera* a vytvoríme mu tzv. **Scenario**
+
 ![App Screenshot](https://github.com/Gymoblig/Matlab/blob/main/img/2.png)
 
 2. V **Signal Editor**e máme menu s ktorým ideme pracovať... Pridáme si **signal**
+
 ![App Screenshot](https://github.com/Gymoblig/Matlab/blob/main/img/3.png)
 - Ktorý sa nachádza pod **Scenario**
 
@@ -61,20 +64,24 @@ korene_r = roots(r);
 
 ![App Screenshot](https://github.com/Gymoblig/Matlab/blob/main/img/5.png)
 - Keďže nám treba len po 2 sekundy tak **10** upravíme na 2 a pridáme hodnoty, ktoré nám treba. Výsledok by mal vyzerať nasledovne:
+
 ![App Screenshot](https://github.com/Gymoblig/Matlab/blob/main/img/6.png)
 
 *Súbor uložíme a pokračujeme*
 
 4. **Block Parametres: Signal Editor** ešte nezatvárame a musíme zaškrtnút **Interpolate Data** a taktiež nastaviť **Sample Time** na **-1**
+
 ![App Screenshot](https://github.com/Gymoblig/Matlab/blob/main/img/7.png)
  - ***Sample time** sme nastavili aby sme mali tzv. nekonečný čas... A **Interpolate Data** slúži na to, aby sa lineárne interpoloval čas, ak neexistujú žiadne zodpovedajúce dáta v pracovnej pamäti*
 
 5. Dáme **OK** pridáme **Scope** a prepojíme náš Signal Editor so Scopom (*Malo by to vyzerať ako na obrázku*)
+
 ![App Screenshot](https://github.com/Gymoblig/Matlab/blob/main/img/8.png)
 
-6. V hornej lište nesmieme zabudnúť nastaviť čas simulácie na dve sekundy, čiže ideme na **SIMULATION > Stop time** (*pri **run***) a nastavíme to na **2**
+7. V hornej lište nesmieme zabudnúť nastaviť čas simulácie na dve sekundy, čiže ideme na **SIMULATION > Stop time** (*pri **run***) a nastavíme to na **2**
 - Následne dáme **RUN** (Počkáme kým Simulink dokončí všetko potrebné)
 - Dvojtým kliknutím otvoríme **Scope** a mali by sme vidieť výsledok našej simulácie :)
+
 ![App Screenshot](https://github.com/Gymoblig/Matlab/blob/main/img/9.png)
 
 
@@ -84,8 +91,9 @@ korene_r = roots(r);
 
 #### Stručný postup:
 1. Najprv si v samotnom **MATLAB**e definujeme naše **f** a frekvenciu **omega**
+
 ![App Screenshot](https://github.com/Gymoblig/Matlab/blob/main/img/10.png)
-2. Po otvorení Simulinku prechádzame na **Library Browser** a vyhľadáme si **Signal Generator**... Po otvorení dvojtým kliknutím sa nám ukáže **editor generátora**
+3. Po otvorení Simulinku prechádzame na **Library Browser** a vyhľadáme si **Signal Generator**... Po otvorení dvojtým kliknutím sa nám ukáže **editor generátora**
 
 ![App Screenshot](https://github.com/Gymoblig/Matlab/blob/main/img/11.png)
 - Tu nám stačí iba zmeniť **Frequency** z **1** na nami predtým definovanú **omega** (*Hodnotu by malo ukazovať číslo pi*)
@@ -94,6 +102,7 @@ korene_r = roots(r);
 5. V hornej lište nesmieme zabudnúť nastaviť čas simulácie na dve sekundy, čiže ideme na **SIMULATION > Stop time** (*pri **run***) a nastavíme to na **2**
 - Následne dáme **RUN** (Počkáme kým Simulink dokončí všetko potrebné)
 - Dvojtým kliknutím otvoríme **Scope** a mali by sme vidieť výsledok našej simulácie :)
+
 ![App Screenshot](https://github.com/Gymoblig/Matlab/blob/main/img/12.png)
 
 ---
