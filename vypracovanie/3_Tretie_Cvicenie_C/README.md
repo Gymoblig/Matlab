@@ -3,9 +3,9 @@
 Toto by malo jednoducho vysvetliť ako som sa dopracoval k výsledku, aký mám :)
 - [ZADANIE 1 - Polynómy](#zadanie-1---polynómy)
 - [ZADANIE 2 - Simulink](#zadanie-2---simulink)
-    - [A) Vytvorte periodický signál v prostredí SIMULINK podľa nasledujúceho obrázku](#a-vytvorte-periodicky-signal-v-prostredi-simulink-podla-nasledujuceho-obrazku)
-    - [B) Vytvorte periodický signál, ktorý vznikne sčítaním prvých 5-tich zložiek Fourierovho radu reprezentujúceho referenčný signál v prvej časti zadania](#b-vytvorte-periodicky-signal-ktory-vznikne-scitanim-prvych-5-tich-zloziek-fourierovho-radu-reprezentujuceho-referencny-signal-v-prvej-casti-zadania)
-    - [C) Zobrazte vytvorené signály z A) a B) v jednom grafickom okne pomocou bloku Scope](#c-zobrazte-vytvorene-signaly-z-a-a-b-v-jednom-grafickom-okne-pomocou-bloku-scope)
+    - [A) Vytvorte periodický signál v prostredí SIMULINK podľa nasledujúceho obrázku](#a-vytvorte-periodický-signál-v-prostredí-simulink-podľa-nasledujúceho-obrázku)
+    - [B) Vytvorte periodický signál, ktorý vznikne sčítaním prvých 5-tich zložiek Fourierovho radu reprezentujúceho referenčný signál v prvej časti zadania](#b-vytvorte-periodický-signál-ktorý-vznikne-sčítaním-prvých-5-tich-zložiek-fourierovho-radu-reprezentujúceho-referenčný-signál-v-prvej-časti-zadania)
+    - [C) Zobrazte vytvorené signály z A) a B) v jednom grafickom okne pomocou bloku Scope](c-zobrazte-vytvorené-signály-z-a-a-b-v-jednom-grafickom-okne-pomocou-bloku-scope)
 ## ZADANIE 1 - Polynómy
 Vytvorte polynóm 
 - p: 4x3- 19x2 + 120
@@ -51,15 +51,18 @@ korene_r = roots(r);
 2. V **Signal Editor**e máme menu s ktorým ideme pracovať... Pridáme si **signal**
 ![App Screenshot](https://github.com/Gymoblig/Matlab/blob/main/img/3.png)
 - Ktorý sa nachádza pod **Scenario**
+
 ![App Screenshot](https://github.com/Gymoblig/Matlab/blob/main/img/4.png)
 - *Ak to neukazuje treba si dať pozor, že zobáčik smeruje dole, aby **Signal** bol daný pod Scenario a aby ikona oka bola otvorená*
 
 3. Následne sa pozrieme na pravú stranu editora, kde nájdeme okno pre úpravu hodnoty v určitom čase 
  - **TIME** - čas v ktorom má signál nadobunúť hodnotu
  - **DATA** - hodnota, ktorú má signál nadobudnúť
+
 ![App Screenshot](https://github.com/Gymoblig/Matlab/blob/main/img/5.png)
 - Keďže nám treba len po 2 sekundy tak **10** upravíme na 2 a pridáme hodnoty, ktoré nám treba. Výsledok by mal vyzerať nasledovne:
 ![App Screenshot](https://github.com/Gymoblig/Matlab/blob/main/img/6.png)
+
 *Súbor uložíme a pokračujeme*
 
 4. **Block Parametres: Signal Editor** ešte nezatvárame a musíme zaškrtnút **Interpolate Data** a taktiež nastaviť **Sample Time** na **-1**
@@ -83,6 +86,7 @@ korene_r = roots(r);
 1. Najprv si v samotnom **MATLAB**e definujeme naše **f** a frekvenciu **omega**
 ![App Screenshot](https://github.com/Gymoblig/Matlab/blob/main/img/10.png)
 2. Po otvorení Simulinku prechádzame na **Library Browser** a vyhľadáme si **Signal Generator**... Po otvorení dvojtým kliknutím sa nám ukáže **editor generátora**
+
 ![App Screenshot](https://github.com/Gymoblig/Matlab/blob/main/img/11.png)
 - Tu nám stačí iba zmeniť **Frequency** z **1** na nami predtým definovanú **omega** (*Hodnotu by malo ukazovať číslo pi*)
 3. Z **Library Browser**u si pridáme **Sum of Elements** a náš **Signal Generator** napojíme naň
@@ -97,4 +101,5 @@ korene_r = roots(r);
 
 #### Stručný postup:
 1. Pri tejto časti cvičenia postupujeme rovnako ako pri časti A a aj B len všetko je vlastne len v jednom súbore to znamená, že výsledná schéma bude vyzerať nasledovne:
+
 ![App Screenschot](https://github.com/Gymoblig/Matlab/blob/main/img/13.png)
