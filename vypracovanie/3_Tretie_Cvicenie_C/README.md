@@ -99,13 +99,15 @@ korene_r = roots(r);
 
 ![App Screenshot](https://github.com/Gymoblig/Matlab/blob/main/img/10.png)
 
-3. Po otvorení Simulinku prechádzame na **Library Browser** a vyhľadáme si **Signal Generator**... Po otvorení dvojtým kliknutím sa nám ukáže **editor generátora**
+2. Po otvorení Simulinku prechádzame na **Library Browser** a vyhľadáme si **Signal Generator**... Po otvorení dvojtým kliknutím sa nám ukáže **editor generátora**
 
 ![App Screenshot](https://github.com/Gymoblig/Matlab/blob/main/img/11.png)
 
 - Tu nám stačí iba zmeniť **Frequency** z **1** na nami predtým definovanú **omega** (*Hodnotu by malo ukazovať číslo pi*)
 3. Z **Library Browser**u si pridáme **Sum of Elements** a náš **Signal Generator** napojíme naň
+
 4. Následne iba **Sum of Elements** napojíme na **Scope**
+   
 5. V hornej lište nesmieme zabudnúť nastaviť čas simulácie na dve sekundy, čiže ideme na **SIMULATION > Stop time** (*pri **run***) a nastavíme to na **2**
 - Následne dáme **RUN** (Počkáme kým Simulink dokončí všetko potrebné)
 - Dvojtým kliknutím otvoríme **Scope** a mali by sme vidieť výsledok našej simulácie :)
