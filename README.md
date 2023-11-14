@@ -1,6 +1,6 @@
 # MATLAB Cvičenia z UIBE
 
-Vitajte v repozitári cvičení z MATLAB, ktoré sú súčasťou kurzov vedenej **Mgr. Ján Grman, PhD.** na UIBE. Tento repozitár obsahuje materiály a riešenia úloh pre cvičenia.
+Vitajte v repozitári cvičení z MATLAB, ktoré sú súčasťou kurzov vedenej **Ing. Jana Paulusová, PhD.** na UIBE. Tento repozitár obsahuje materiály a riešenia úloh pre cvičenia.
 
 ## Obsah
 
