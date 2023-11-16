@@ -120,17 +120,26 @@ korene_r = roots(r);
 #### Stručný postup:
 1. Túto časť cvičenia som trošku poupravil keďže to je asi správnejšie riešenie ako celé cvičenie B... Ako prvé si samozrejme vytvoríme časť podľa **Zadania A**
 
-2. Do našeho **Workspace** si pridáme premenné, ktoré nám budú potrebné. Bude nám treba **f, omega, ampl1, ampl2, ampl3, ampl4** a **ampl5**... Vzorce a nájdete ![tu](vypracovanie/3_Tretie_Cvicenie_C/príkazy_pre_tretie_cvičenie.txt)
+2. Do našeho **Workspace** si pridáme premenné, ktoré nám budú potrebné. Bude nám treba **f, omega, ampl1, ampl2, ampl3, ampl4** a **ampl5**... Vzorce a nájdete [tu](príkazy_pre_tretie_cvičenie.txt)
 
 3. Následne si pridáme **5x Signal Generator** (*z Library Browseru*), ktoré nastavíme podľa požadovaných hodnôt (*obrázky*)
+- Prvý Signal Generátor:
 
 ![App Screenschot](https://github.com/Gymoblig/Matlab/blob/main/img/13.png)
 
+- Druhý Signal Generátor:
+
 ![App Screenschot](https://github.com/Gymoblig/Matlab/blob/main/img/14.png)
+
+- Tretí Signal Generátor:
 
 ![App Screenschot](https://github.com/Gymoblig/Matlab/blob/main/img/15.png)
 
+- Štvrtý Signal Generátor:
+
 ![App Screenschot](https://github.com/Gymoblig/Matlab/blob/main/img/16.png)
+
+- Piaty Signal Generátor:
 
 ![App Screenschot](https://github.com/Gymoblig/Matlab/blob/main/img/17.png)
 
