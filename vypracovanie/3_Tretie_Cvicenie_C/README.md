@@ -10,6 +10,7 @@ Toto by malo jednoducho vysvetliť ako som sa dopracoval k výsledku, aký mám 
 Vytvorte polynóm 
 - p: 4x3- 19x2 + 120
 - q: x + 1
+
 vypíšte polynóm **r**, ktorý je súčinom polynómu **p** a polynómu
 **q**. 
 Zistite hodnotu polynómu **r** v bode **x=1**. 
