@@ -118,6 +118,30 @@ korene_r = roots(r);
 ### C) Zobrazte vytvorené signály z A) a B) v jednom grafickom okne pomocou bloku Scope.
 
 #### Stručný postup:
-1. Pri tejto časti cvičenia postupujeme rovnako ako pri časti A a aj B len všetko je vlastne len v jednom súbore to znamená, že výsledná schéma bude vyzerať nasledovne:
+1. Túto časť cvičenia som trošku poupravil keďže to je asi správnejšie riešenie ako celé cvičenie B... Ako prvé si samozrejme vytvoríme časť podľa **Zadania A**
+
+2. Do našeho **Workspace** si pridáme premenné, ktoré nám budú potrebné. Bude nám treba **f, omega, ampl1, ampl2, ampl3, ampl4** a **ampl5**... Vzorce a nájdete ![tu](vypracovanie/3_Tretie_Cvicenie_C/príkazy_pre_tretie_cvičenie.txt)
+
+3. Následne si pridáme **5x Signal Generator** (*z Library Browseru*), ktoré nastavíme podľa požadovaných hodnôt (*obrázky*)
 
 ![App Screenschot](https://github.com/Gymoblig/Matlab/blob/main/img/13.png)
+
+![App Screenschot](https://github.com/Gymoblig/Matlab/blob/main/img/14.png)
+
+![App Screenschot](https://github.com/Gymoblig/Matlab/blob/main/img/15.png)
+
+![App Screenschot](https://github.com/Gymoblig/Matlab/blob/main/img/16.png)
+
+![App Screenschot](https://github.com/Gymoblig/Matlab/blob/main/img/17.png)
+
+4. Všetky tieto **Signal Generator**i napojíme na **Add** (*z Library Browseru*) a nakoniec náš **Add** pripojíme na **Scope**... 
+
+### Výsledok by mal vyzerať nasledovne:
+
+![App Screenschot](https://github.com/Gymoblig/Matlab/blob/main/img/18.png)
+
+5. V hornej lište nesmieme zabudnúť nastaviť čas simulácie na dve sekundy, čiže ideme na **SIMULATION > Stop time** (*pri **run***) a nastavíme to na **2**
+- Následne dáme **RUN** (Počkáme kým Simulink dokončí všetko potrebné)
+- Dvojtým kliknutím otvoríme **Scope** a mali by sme vidieť výsledok našej simulácie :)
+
+![App Screenschot](https://github.com/Gymoblig/Matlab/blob/main/img/19.png)
