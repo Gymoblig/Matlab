@@ -94,7 +94,7 @@ korene_r = roots(r);
 
 ---
 ### ~~B) Vytvorte periodický signál, ktorý vznikne sčítaním prvých 5-tich zložiek Fourierovho radu reprezentujúceho referenčný signál v prvej časti zadania.~~
-### !!!POSTUP PRI TOMTO NIE JE SPRÁVNY!!!
+### !!!POSTUP PRI TOMTO NIE JE SPRÁVNY!!! Choďte podľa [tohoto](#c-zobrazte-vytvoren%C3%A9-sign%C3%A1ly-z-a-a-b-v-jednom-grafickom-okne-pomocou-bloku-scope)
 
 #### Stručný postup:
 1. Najprv si v samotnom **MATLAB**e definujeme naše **f** a frekvenciu **omega**
