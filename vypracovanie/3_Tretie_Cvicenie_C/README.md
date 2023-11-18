@@ -120,7 +120,7 @@ korene_r = roots(r);
 ### C) Zobrazte vytvorené signály z A) a B) v jednom grafickom okne pomocou bloku Scope.
 
 #### Stručný postup:
-1. Túto časť cvičenia som trošku poupravil keďže to je asi správnejšie riešenie ako celé cvičenie B... Ako prvé si samozrejme vytvoríme časť podľa **Zadania A**
+1. Túto časť cvičenia som trošku poupravil keďže to je asi správnejšie riešenie ako celé cvičenie B... Ako prvé si samozrejme vytvoríme časť podľa [**Zadania A**](#zadanie-1---polynómy)
 
 2. Do našeho **Workspace** si pridáme premenné, ktoré nám budú potrebné. Bude nám treba **f, omega, ampl1, ampl2, ampl3, ampl4** a **ampl5**... Vzorce nájdete [tu](príkazy_pre_tretie_cvičenie.txt)
 
