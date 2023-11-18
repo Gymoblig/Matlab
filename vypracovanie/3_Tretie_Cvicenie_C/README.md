@@ -84,7 +84,7 @@ korene_r = roots(r);
 
 ![App Screenshot](https://github.com/Gymoblig/Matlab/blob/main/img/8.png)
 
-7. V hornej lište nesmieme zabudnúť nastaviť čas simulácie na dve sekundy, čiže ideme na **SIMULATION > Stop time** (*pri **run***) a nastavíme to na **2**
+6. V hornej lište nesmieme zabudnúť nastaviť čas simulácie na dve sekundy, čiže ideme na **SIMULATION > Stop time** (*pri **run***) a nastavíme to na **2**
 - Následne dáme **RUN** (Počkáme kým Simulink dokončí všetko potrebné)
 - Dvojtým kliknutím otvoríme **Scope** a mali by sme vidieť výsledok našej simulácie :)
 
