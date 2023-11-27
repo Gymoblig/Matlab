@@ -1,4 +1,4 @@
-sim('ZadanieAsim.slx', 'StopTime', '10'); 
+sim('ZadanieAsim.slx'); 
 plot(ans.y);
 title('Diferenciálna Rovnica A');
 xlabel('Čas');
