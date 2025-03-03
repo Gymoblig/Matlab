@@ -1,4 +1,4 @@
-# Matice v MATLABe 🧮
+# Zadanie 2 - Matice v MATLABe 🧮
 
 Tento priečinok obsahuje úlohy týkajúce sa prác s maticami v MATLABe.
 
